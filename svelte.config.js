@@ -1,8 +1,7 @@
-import netlify from '@sveltejs/adapter-netlify';
-import vercel from '@sveltejs/adapter-vercel';
+import cloudflare from '@sveltejs/adapter-cloudflare';
 
 export default {
 	kit: {
-		adapter: process.env.VERCEL ? vercel() : netlify()
+		adapter: cloudflare()
 	}
 };

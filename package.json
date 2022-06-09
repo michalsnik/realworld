@@ -1,0 +1,20 @@
+{
+  "name": "realworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"builing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalsnik/realworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalsnik/realworld/issues"
+  },
+  "homepage": "https://github.com/michalsnik/realworld#readme"
+}
